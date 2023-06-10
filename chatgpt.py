@@ -1,7 +1,7 @@
 import openai
 
-#openai.api_key = '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'
-openai.api_key='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'
+
+openai.api_key='sk-ezDGZ0I5co5pjcXXXXXXXXXXXXXXXXXXX'
 def ask_chatbot(prompt):
     response = openai.Completion.create(
         engine='text-davinci-003',  #specifies the language model to use.davinci refers to GPT-3 model
